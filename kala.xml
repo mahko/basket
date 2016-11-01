@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nosetests" tests="3" errors="0" failures="1" skip="1">
+    <testcase classname="tests.SimpleTest" name="test_fail" time="0.000">
+        <failure type="exceptions.AssertionError" message="11 != 10">
+            <![CDATA[Traceback (most recent call last):
+File "/opt/python-2.6.1/lib/python2.6/site-packages/unittest2-0.5.1-py2.6.egg/unittest2/case.py", line 340, in run
+testMethod()
+File "/home/damien/tests.py", line 16, in test_fail
+self.assertEqual(11, 7 + 3)
+File "/opt/python-2.6.1/lib/python2.6/site-packages/unittest2-0.5.1-py2.6.egg/unittest2/case.py", line 521, in assertEqual
+assertion_func(first, second, msg=msg)
+File "/opt/python-2.6.1/lib/python2.6/site-packages/unittest2-0.5.1-py2.6.egg/unittest2/case.py", line 514, in _baseAssertEqual
+raise self.failureException(msg)
+AssertionError: 11 != 10
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="tests.SimpleTest" name="test_pass" time="0.000"></testcase>
+    <testcase classname="tests.SimpleTest" name="test_skipped" time="0.000">
+        <skipped type="nose.plugins.skip.SkipTest" message="demonstrating skipping">
+            <![CDATA[SkipTest: demonstrating skipping
+]]>
+        </skipped>
+    </testcase>
+</testsuite>
