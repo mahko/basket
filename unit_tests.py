@@ -1,5 +1,5 @@
 # We need to import unittest library and the class we are testing
-import unittest2 as unittest
+import unittest
 from ohjelma import Basket
 import numbers
 
