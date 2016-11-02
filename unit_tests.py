@@ -9,7 +9,7 @@ class BasketTests(unittest.TestCase):
 
     # Setup method to create a test object
     def setUp(self):
-        self.keijon_ostoskori = Basket(20, ["kissa","pasi"], 20)
+        self.keijon_ostoskori = Basket("Keijo", ["kissa","pasi"], 20)
 
     # Teardown method to delete the test object
     def tearDown(self):
