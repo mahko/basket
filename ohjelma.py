@@ -8,7 +8,7 @@
 
 class Basket:
     def __init__(self, customer, contents, price):
-#        self.customer = customer
+        self.customer = customer
         self.contents = contents
         self.price = price
 
